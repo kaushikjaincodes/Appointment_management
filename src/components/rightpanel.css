@@ -1,0 +1,9 @@
+.rightdiv{
+    height: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C69774;
+}
+
+.rightdiv>p{
+    font-size: xxx-large;
+}

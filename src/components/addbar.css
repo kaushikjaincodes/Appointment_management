@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .outerdiv{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+  }
+  
+  .move {
+    width: 250px;
+    margin-right: 20px; 
+    display: flex;
+    display: inline-block; 
+    gap: 30px;
+  }
+  
+  .timeinput {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  
+ 
+  .namei{
+    border-radius: 10px;
+    border: none;
+    width: 162px;
+    background-color: #C69774;
+    color: #637E76;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    caret-color:#637E76;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  #namelabel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C69774;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  
+  #hours{
+    border-radius: 10px;
+    border: none;
+    width: 33px;
+    background-color: #C69774;
+    color: #637E76;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    caret-color:#637E76;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 2px;
+  }
+  
+  #minutes{
+    border-radius: 10px;
+    border: none;
+    width: 27px;
+    background-color: #C69774;
+    color: #637E76;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    caret-color:#637E76;
+  }
+  
+  .add{
+    border-radius: 10px;
+    border: none;
+    width: 51px;
+    background-color: #C69774;
+    color: #637E76;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-left: 61px;
+  }
+  
+  .add:hover{
+    cursor: pointer;
+  
+  }
+  #period{
+    border-radius: 10px;
+    border: none;
+    width: 50px;
+    background-color: #C69774;
+    color: #637E76;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+  }
+  .lablestyle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 6px;
+    color: #C69774;
+    margin-left: 1%;
+    margin-right: 3px;
+    margin-right: 10px;
+   
+  }
+  
+  #period option{
+    background-color: #C69774;
+    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  }
+  .addbut{
+    margin-top: 20px;
+  }
+  select{
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  }
+  
+  
+  
+  input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+      }
+  

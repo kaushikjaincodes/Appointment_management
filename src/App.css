@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bottom{
+  width: 70%;
+  display: flex;
+  gap: 30px;
+  justify-items: center;
+  margin-left: 213px;
+  margin-top: 50px;
+}
+.addbarcontainer{
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left:-220px;
+}
+.diver{
+  display: flex;
+  position: relative;
+  top: 140px;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+}
+
+.bar{
+  height: inherit;
+  width: 2px;
+  background-color: #C69774;
+}
+
+.belowdiv{
+  height: 400px;
+  top: 140px;
+  /* justify-self: center; */
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  gap: 60px;
+}

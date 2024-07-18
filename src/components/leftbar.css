@@ -1,0 +1,35 @@
+.leftdiv{
+    height: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C69774;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  li {
+    
+    padding: 10px 20px; 
+    margin: 5px; 
+    background-color: #C69774; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  li:hover {
+    background-color: #45a049; 
+  }
+  
+  li:active {
+    background-color: #3e8e41; 
+    transform: translateY(2px); 
+  }
+  
