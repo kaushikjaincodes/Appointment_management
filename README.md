@@ -33,19 +33,18 @@ This is a simple React application for managing customer appointments. Users can
 1. Start the development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 2. Open your browser and navigate to:
 
     ```
-    http://localhost:3000
+    http://localhost:5173
     ```
 
 3. Use the form to add customer names and appointment times.
 
 4. Click on an appointment in the sidebar to view the customer's details.
-
 ## Project Structure
 
 - `src/`: Source code directory
